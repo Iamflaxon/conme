@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me on Messenger</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .contact-button {
+            padding: 15px 25px;
+            background-color: #0084ff; /* Messenger blue */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .contact-button:hover {
+            background-color: #005b99; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="contact-button" onclick="openMessenger()">Contact Me on Messenger</button>
+
+    <script>
+        function openMessenger() {
+            const messengerLink = "https://m.me/IstiakHosenIftee"; // Use your actual Messenger username
+            window.open(messengerLink, "_blank");
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
